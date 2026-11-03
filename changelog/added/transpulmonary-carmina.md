@@ -1,0 +1,1 @@
+Core: Client environment config profiles include the raw TOML tables under `profile.<name>.ext`, keyed by extension name, for SDK envconfig extensions. Strict mode accepts any content under `ext`. The C bridge's profile JSON includes them as an `ext` object, with TOML datetimes as strings.
